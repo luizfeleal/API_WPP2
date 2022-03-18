@@ -212,11 +212,11 @@ function start (client) {
 }
     })
   });
-  /*socket.on('ready', () => {
+  socket.on('ready', () => {
     setTimeout(function (){
           socket.emit('ready', path.join(__dirname, '/public/images/out.png')); //https://www.andersonbrandao.com.br/images/out.png ./images/out.png
       }, 3000)
-  });*/
+  });
 
 
 
